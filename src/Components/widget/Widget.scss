@@ -1,0 +1,40 @@
+.widget{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 315px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 4px 30px 5px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 20px 1px rgba(201,201,201,0.47);
+    border-radius: 20px;
+    height: 200px;
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title{
+            font-weight: bold;
+            font-size: 20px;
+            color: rgb(41, 46, 146);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .counter{
+            font-size: 17px;
+            font-weight: 300;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .link{
+            width: max-content;
+            font-size: 12px;
+            border-bottom: 1px solid red;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .percentage{
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+        }
+    }
+}

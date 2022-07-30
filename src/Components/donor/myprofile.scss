@@ -1,0 +1,79 @@
+@import "https://www.w3schools.com/w3css/4/w3.css";
+* {
+    box-sizing: border-box;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .donatedproducts{
+    
+    margin-top:5px;
+  }
+  h2{
+    color:rgb(160, 65, 101);
+  }
+ .profile{
+    position: relative;
+  }
+  .pcontainer {
+    position: absolute;
+    top:400%;
+    border-radius: 5px;
+    background-color: rgb(223, 182, 182);
+    width:700px;
+    height: 650px;
+    margin-left: -350px;
+    display: inline-block;
+    .header{
+      margin-right: 500px;
+    }
+    .form{
+      position: relative;
+      padding: 0px;
+      margin-right: 550px;
+    }
+    .btn{
+      margin-right: 500px;
+    }
+  }
+  
+  .tableclass{
+    top:50%;
+  }
+  #productstable{
+    display: inline-block;
+    position:absolute;
+    top:10%;
+    width: 500px;
+  }
+td{
+  font-size: 20px;;
+}
+  
+  .collabel {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+    margin-left:10px;
+  }
+  
+  .colvalue {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    margin-left:30px;
+    
+  }
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .foralign td{
+    text-align:center;
+    
+  }
+  

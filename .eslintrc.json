@@ -1,0 +1,27 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es2021": true,
+		"jest": true
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest"
+	},
+
+	"plugins": ["react", "prettier"],
+	"rules": {
+		"no-undef": "off",
+		"linebreak-style": ["warn", "unix"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
+		"camelcase": "error",
+		"spaced-comment": "warn",
+		"no-trailing-spaces": "error",
+		"no-unused-vars": "warn"
+	}
+}
