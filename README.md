@@ -4,7 +4,7 @@
 
 - Another repository have backend code written in springboot
 
-## [Live Link of Swagger Backend](http://ec2-3-109-133-141.ap-south-1.compute.amazonaws.com:8080/swagger-ui.html)
+## [Link of Swagger Backend](http://ec2-3-109-133-141.ap-south-1.compute.amazonaws.com:8080/swagger-ui.html)
 
 ## Project include features like :
 
